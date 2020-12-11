@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.mdiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mdiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_div1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+}
+.main_div2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+}
+.main_div2 img{
+    width: 400px;
+    height: 400px;
+    border: 2px white solid;
+    border-radius: 50%;
+}
+.main_div1 h1{
+    font-family: 'Do Hyeon', sans-serif;
+}
+.mbtn{
+    background-color: blue;
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px white solid;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+
+}
+.main_div1 p{
+    font-family: 'Roboto', sans-serif;sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: justify;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+}
+nav{
+    width: 100%;
+    background-color: blue;
+}
+.nav_div1 img{
+    height: 50px;
+    width: 50px;
+    border: 5px green solid;
+    border-radius: 50%;
+    display: flex;
+}
+.nav_bar{
+    display: flex;
+    position: fixed;
+    background-color: blue;
+}
+.nav_div1{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_div2 ul{
+    list-style: none;
+    color: white;
+    display: flex;
+}
+.nav_div2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_div3{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_div2 ul li{
+    margin: 8px;
+    padding: 16px;
+}
+.nav_div2 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.nav_div2 ul li a:hover{
+    color: red;
+}
+.nav_div3 input{
+    width: 100px;
+    border: 2px gray solid;
+    margin: 8px;
+    padding: 2px;
+    border-radius: 25px;
+}
+.btn{
+    border: 2px greenyellow solid;
+    padding: 2px;
+    margin: 8px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.mdiv3 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Do Hyeon';
+    padding: 5px;
+    margin: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
